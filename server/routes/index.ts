@@ -1,3 +1,6 @@
 export default eventHandler((event) => {
-  return "Start by editing <code>server/routes/index.ts</code>.";
+  return {
+    message: "hi",
+    version: 1.00
+  }
 });
